@@ -1,0 +1,72 @@
+@charset "utf-8d";
+
+*{
+    font-family: serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+*{
+    color: #b38b70;
+    background-color: #D4fBFE;
+}
+
+#menu > ul > li {
+    display: inline;
+
+    margin: 0 8px 0 0;
+
+    border: 3px solid #b38b70;
+    border-radius: 4px;
+
+    padding: 4px;
+    background-color: #decdc3;
+
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 1.2rem;
+}
+
+input[type="text"]{
+    margin: 4px;
+    padding: 8px;
+    border: 2px solid #b38b70;
+    border-radius: 4px;
+}
+
+input[type="email"]{
+    margin: 4px;
+    padding: 8px;
+    border: 2px solid #b38b70;
+    border-radius: 4px;
+}
+
+textarea{
+    margin: 4px;
+    padding: 8px;
+    border: 2px solid #b38b70;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    margin: 4px;
+    padding: 8px;
+    border: 2px solid #b38b70;
+    border-radius: 4px;
+    background:#decdc3;
+}
+
+input[type="reset"]{
+    margin: 4px;
+    padding: 8px;
+    border: 2px solid #b38b70;
+    border-radius: 4px;
+    background:#B5E8DD;
+}

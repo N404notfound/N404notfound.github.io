@@ -1,0 +1,55 @@
+@charset "utf-8d";
+
+*{
+    font-family: serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+*{
+    color: #b38b70;
+    background-color: #D4fBFE;
+}
+
+#menu > ul > li {
+    display: inline;
+
+    margin: 0 8px 0 0;
+
+    border: 3px solid #b38b70;
+    border-radius: 4px;
+
+    padding: 4px;
+    background-color: #decdc3;
+
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 1.2rem;
+}
+
+ul{
+    list-style: circle;
+    padding: 50px;
+}
+
+p{
+    line-height: 25px;
+    text-align: start;
+    text-align-last: left;
+}
+
+
+#top:hover{
+    font-size: 1.2rem;
+}
+
+.waaa{
+    display: flex;
+}

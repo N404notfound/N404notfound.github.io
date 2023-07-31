@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="N404notfound">
+       <!-- ページ内容を表すキーワード：3～5つくらい -->
+       <meta name="keywords" content="omikuji, quiz, nazotoki">
+       <link rel="stylesheet" href="./css/b.css">
+       <title>暇つぶし</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="top">暇つぶし</h1>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="../kadai.final/index.html">HOME</a></li>
+                    <li><a href="../kadai.final/a.html"></a>ABOUT ME</li>
+                    <li><a href="../kadai.final/b.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <main>
+            <section>
+                <h2>CONTACT</h2>
+                <p>このサイトに関して何かご意見、質問等ございましたら、下記のファームからお送りください。</p>
+                <form action="#" method="post">
+                    <div>
+                        <label for="surname">お名前（匿名可）：</label>
+                        <input type="text" id="surname" name="lastname" placeholder="入力してください" required>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="female" name="sex" value="female" checked>
+                        <label for="female">女性</label>
+                        
+                        <input type="radio" id="male" name="sex" value="male">
+                        <label for="male">男性</label>
+    
+                        <input type="radio" id="none" name="sex" value="none">
+                        <label for="none">指定しない</label>
+
+                        <input type="radio" id="other" name="sex" value="other">
+                        <label for="other">その他</label>
+
+                        <label for="sexuality">：</label>
+                        <input type="text" id="sexuality" name="sex" placeholder="入力してください">
+                    </div>
+    
+                    <div>
+                        <label for="requests">要望：</label>
+                        <textarea name="requests" id="requests" cols="30" rows="10" placeholder="入力してください"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="agreement">
+                        <label for="agreement">メールでの返答を希望する</label>
+                    </div>
+    
+                    <div>
+                        <label>
+                            メールアドレス（希望者のみ）：
+                            <input type="email" placeholder="入力してください">
+                        </label>
+                    </div>
+    
+                    <div>
+                        <input type="submit" value="送信する">
+                        <input type="reset" value="リセット">
+
+                    </div>
+    
+                </form>
+    
+            </section>
+
+            <div>
+                <h3>あるなしクイズの答え</h3>
+                <dl>正解：ある</dl>
+                <dd>あるの方は魚篇を付けた時にその漢字が存在する。</dd>
+            </div>
+
+
+        </main>
+
+    </body>
+
+</html>
