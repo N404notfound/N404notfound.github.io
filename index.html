@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <!-- ファイルの文字コード -->
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ページ作成者 -->
+    <meta name="author" content="Osamu HASEGAWA">
+    <!-- ページ内容を表すキーワード（3〜5つくらい） -->
+    <meta name="keywords" content="JavaScript,if, for">
+
+    <!-- CSSとの紐付け．CSSへのパスは相対パスで記述する． -->
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+
+    <!-- タイトル -->
+    <title>第12回 JavaScript（じゃんけんプログラム）</title>
+</head>
+
+<body>
+
+    <!-- header: サイト共通のヘッダー情報（サイトタイトルとかナビゲーションとか） -->
+    <header>
+        <h1 id="top">コンピュータ・リテラシーⅡ</h1>
+
+        <!-- nav: 他のページへのリンクや，ページ内リンクをまとめたもの -->
+        <nav id="menu">
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">タグリファレンス</a></li>
+                <li><a href="#">問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>JavaScript（じゃんけんプログラム）</h2>
+
+        <div>
+            <h3>課題解説：じゃんけんプログラム</h3>
+
+            <button type="button" onclick="janken(0)">グー</button>
+            <button type="button" onclick="janken(1)">チョキ</button>
+            <button type="button" onclick="janken(2)">パー</button>
+
+            <div>
+                <p id="janken-result">ここに勝ち負けが表示されます。</p>
+            </div>
+        </div>
+
+        <div>
+            <h2>jQuery</h2>
+            <p id="test-p-1">gare</p>
+            <p id="test-p-2">garecha</p>
+            <p id="test-p-3">garechan</p>
+
+            <button type="butten" onclick="test()">jQueryを使ってみる</button>
+        </div>
+
+    </main>
+
+    <!-- 外部のjavascriptライブラリを読み込む -->
+    <!-- 読み込む順番が重要 -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <!-- 外部のJavaScriptファイルを読み込む場合 -->
+    <script src="./js/janken.js"></script>
+
+    <!-- JavaScriptは、bodyの綴じタグの直前に記述するのがセオリー -->
+    <!-- ↑の理由 ページの読み込み速度を向上させるため -->
+
+    <!-- jQueryを使ってみる -->
+    <!-- 必ず69行目のやつの下に書く -->
+    <script src="./js/jQuery-test.js"></script>
+
+</body>
